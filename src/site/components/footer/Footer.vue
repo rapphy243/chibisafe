@@ -3,7 +3,7 @@
 		<div class="container">
 			<div class="columns">
 				<div class="column is-narrow">
-					<h4>chibisafe</h4>
+					<h4>rapphsafe</h4>
 					<span>© 2017-{{ getYear }}
 						<a
 							href="https://github.com/pitu"
@@ -13,7 +13,7 @@
 				</div>
 				<div class="column is-narrow bottom-up">
 					<a href="https://github.com/rapphy243/chibisafe">GitHub</a>
-					<a href="CatGirl#0142">CatGirl#0142</a>
+					<a href="Rapphy243#0142">Rapphy243#0142</a>
 				</div>
 				<div class="column is-narrow bottom-up">
 					<a
@@ -26,6 +26,8 @@
 		</div>
 	</footer>
 </template>
+
+<script src="https://analytics.rapph.dev/edge/62ec9fa12d17963007859a43/tm.js" async></script> <!-- analytics -->
 
 <script>
 /* eslint-disable no-restricted-globals */

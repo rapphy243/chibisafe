@@ -2,14 +2,24 @@
 	<div class="links">
 		<a
 			href="https://rapph.dev"
-			target="_blank"
+			target="_self"
 			class="link">
 			<header class="bd-footer-star-header">
-				<h4 class="bd-footer-title">Rapph.dev</h4>
-				<p class="bd-footer-subtitle">My Website 😁</p>
+				<h4 class="bd-footer-title">Rapph.Dev</h4>
+				<p class="bd-footer-subtitle">My Website</p>
 			</header>
 		</a>
 		<a
+			href="https://blog.rapph.dev"
+			target="_self"
+			class="link">
+			<header class="bd-footer-star-header">
+				<h4 class="bd-footer-title">Blog</h4>
+				<p class="bd-footer-subtitle">My Blog</p>
+			</header>
+		</a>	
+		<a
+			v-!if="loggedIn"
 			href="https://github.com/rapphy243/chibisafe"
 			target="_blank"
 			class="link">

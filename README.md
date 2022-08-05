@@ -1,3 +1,5 @@
+I have recently changed the branch my instance of chibisafe runs on. This one is currently runs on my instance. I would recomend switching to the [main branch](https://github.com/rapphy243/chibisafe) of this fork for your own use because you would a clean instalation without my personalisation changes. I have also updated the parts of the guide where previously this branch was used. 
+
 ## Changes from the original fork
 - Makes it so the docker-compose file works better with Portainer and removes the need for Nginx. (Use your own reverse proxy host ex. Nginx Proxy Manger, Traefik, Apache, etc.)[IpOfContainer:5000]
 - Adds Ulalou's IOS Shortcut in the footer
@@ -16,10 +18,9 @@
 
 
 ## Docker Setup
-Note that I use Portainer to make life easier.
-I am very bad at git also. 😭
-[Instructions/Guide](https://rapph.dev/guide-chibisafe/)
-
+Note: that I use Portainer to make life easier.
+[Instructions/Guide](https://blog.rapph.dev/guide-chibisafe/)
+Git commits go brrrrr.
 
 ## What is Chibisafe?
 Chibisafe is a file uploader service written in node that aims to to be easy to use and easy to set up. It's mainly intended for images and videos, but it accepts anything you throw at it.
@@ -30,15 +31,6 @@ Chibisafe is a file uploader service written in node that aims to to be easy to 
 - API Key support so you can integrate the service with whatever you desire.
 - Albums, tags and Discord-like search function
 - User list and control panel
-
-
-### Screenshots
-<p align="center">
-  <img src="https://lolisafe.moe/73up1d.png">
-  <img src="https://lolisafe.moe/q0uctp.png">
-  <img src="https://lolisafe.moe/8fi2x6.png">
-</p>
-
 ## Author
 
 **Chibisafe** © [Pitu](https://github.com/Pitu), Released under the [MIT](https://github.com/WeebDev/chibisafe/blob/master/LICENSE) License.<br>
