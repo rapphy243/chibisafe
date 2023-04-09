@@ -27,8 +27,6 @@
 	</footer>
 </template>
 
-<script src="https://analytics.rapph.dev/edge/62ec9fa12d17963007859a43/tm.js" async></script> <!-- analytics -->
-
 <script>
 /* eslint-disable no-restricted-globals */
 
