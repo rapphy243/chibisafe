@@ -10,18 +10,8 @@
 			</header>
 		</a>
 		<a
-			href="https://blog.rapph.dev"
-			target="_self"
-			class="link">
-			<header class="bd-footer-star-header">
-				<h4 class="bd-footer-title">Blog</h4>
-				<p class="bd-footer-subtitle">My Blog</p>
-			</header>
-		</a>	
-		<a
-			v-!if="loggedIn"
 			href="https://github.com/rapphy243/chibisafe"
-			target="_blank"
+			target="_self"
 			class="link">
 			<header class="bd-footer-star-header">
 			<h4 class="bd-footer-title">Github</h4>
@@ -40,18 +30,6 @@
 				</p>
 			</header>
 		</div>
-		<router-link
-			to="/faq"
-			class="link">
-			<header class="bd-footer-star-header">
-				<h4 class="bd-footer-title">
-					FAQ
-				</h4>
-				<p class="bd-footer-subtitle">
-					We got you covered
-				</p>
-			</header>
-		</router-link>
 	</div>
 </template>
 <script>
