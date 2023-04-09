@@ -10,7 +10,6 @@ services:
         build:
             context: ../
             dockerfile: ./docker/chibisafe/Dockerfile
-            no-cache: false
         image: rapphy243/chibisafe #Tag Docker Image
         container_name: chibisafe #Name container name
         volumes:
