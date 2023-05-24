@@ -7,6 +7,7 @@ networks: #Add to my Nginx Network in Docker. Just makes life easier for me, and
 
 services:
     chibisafe:
+        pull_policy: build
         build:
             context: ../
             dockerfile: ./docker/chibisafe/Dockerfile
