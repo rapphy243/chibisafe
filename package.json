@@ -68,7 +68,7 @@
 		"mysql": "^2.16.0",
 		"nuxt": "^2.14.12",
 		"nuxt-dropzone": "^0.2.8",
-		"pg": "^7.8.1",
+		"pg": "^8.11.1",
 		"qoa": "^0.2.0",
 		"randomstring": "^1.1.5",
 		"rotating-file-stream": "^2.1.3",
