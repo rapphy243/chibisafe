@@ -1,4 +1,4 @@
-I have recently changed the branch my instance of chibisafe runs on. This one is currently runs on my instance. I would recomend switching to the [main branch](https://github.com/rapphy243/chibisafe) of this fork for your own use because you would a clean instalation without my personalisation changes. I have also updated the parts of the guide where previously this branch was used. 
+I have recently changed the branch my instance of chibisafe runs on. This used to run my instance. I would recomend switching to the [main branch](https://github.com/chibisafe/chibisafe)
 
 ## Changes from the original fork
 - Makes it so the docker-compose file works better with Portainer and removes the need for Nginx. (Use your own reverse proxy host ex. Nginx Proxy Manger, Traefik, Apache, etc.)[IpOfContainer:5000]
